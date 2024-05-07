@@ -1,0 +1,28 @@
+---
+title: Next.j에서 stroybook을 사용하는 방법
+date: 2024-04-01
+description: Next.js에서 storybook을 사용하는 방법을 알아보자.
+published: true
+tags:
+  - Next.js
+  - storybook
+thumbnail: "./images/storybook.svg"
+---
+
+## Storybook이란?
+
+Storybook은 컴포넌트를 개발하고 문서화하는 도구입니다. `Storybook`은 컴포넌트를 독립적으로 테스트하고 문서화하며, 컴포넌트를 개발할 때 빠르게 반복할 수 있도록 도와줍니다. Storybook은 React, Vue, Angular, Svelte 등 다양한 프레임워크를 지원합니다.
+
+이번에는 Next.js에서 Storybook을 사용하는 방법을 알아보겠습니다.
+
+## Storybook 설치
+
+Next js 설치 단계는 건너뛰고 Storybook 설치 단계부터 시작하겠습니다.
+
+```bash
+npx storybook@latest init
+```
+
+현재 기준으로 Storybook 8버전이 설치됩니다.
+
+만약 미리 설치된 7+버전 미만에서 사용한다면 다음과 같이 공식문서를 참고해주세요. [Storybook 7+버전 미만에서 업그레이드 방법 - 공식문서](https://storybook.js.org/docs/get-started/nextjs#in-a-project-with-storybook)
